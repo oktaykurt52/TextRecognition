@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		82CEDCF0239E8FE800915D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CEDCEF239E8FE800915D97 /* AppDelegate.swift */; };
 		82CEDCF2239E8FE800915D97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CEDCF1239E8FE800915D97 /* SceneDelegate.swift */; };
-		82CEDCF4239E8FE800915D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CEDCF3239E8FE800915D97 /* ViewController.swift */; };
+		82CEDCF4239E8FE800915D97 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CEDCF3239E8FE800915D97 /* MainViewController.swift */; };
 		82CEDCF7239E8FE800915D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CEDCF5239E8FE800915D97 /* Main.storyboard */; };
 		82CEDCF9239E8FED00915D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CEDCF8239E8FED00915D97 /* Assets.xcassets */; };
 		82CEDCFC239E8FED00915D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CEDCFA239E8FED00915D97 /* LaunchScreen.storyboard */; };
+		82D000CC239FDB9400EECA64 /* ListeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D000CB239FDB9400EECA64 /* ListeningViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		82CEDCEC239E8FE800915D97 /* TextRecognitionAndTextSpeech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextRecognitionAndTextSpeech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CEDCEF239E8FE800915D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82CEDCF1239E8FE800915D97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		82CEDCF3239E8FE800915D97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82CEDCF3239E8FE800915D97 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		82CEDCF6239E8FE800915D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82CEDCF8239E8FED00915D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82CEDCFB239E8FED00915D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82CEDCFD239E8FED00915D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D000CB239FDB9400EECA64 /* ListeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		82CEDCEE239E8FE800915D97 /* TextRecognitionAndTextSpeech */ = {
 			isa = PBXGroup;
 			children = (
-				82CEDCEF239E8FE800915D97 /* AppDelegate.swift */,
-				82CEDCF1239E8FE800915D97 /* SceneDelegate.swift */,
-				82CEDCF3239E8FE800915D97 /* ViewController.swift */,
-				82CEDCF5239E8FE800915D97 /* Main.storyboard */,
+				82CEDD05239E901900915D97 /* Delegates */,
+				82CEDD04239E900800915D97 /* Storyboards */,
+				82CEDD03239E8FFB00915D97 /* ViewControllers */,
 				82CEDCF8239E8FED00915D97 /* Assets.xcassets */,
-				82CEDCFA239E8FED00915D97 /* LaunchScreen.storyboard */,
 				82CEDCFD239E8FED00915D97 /* Info.plist */,
 			);
 			path = TextRecognitionAndTextSpeech;
+			sourceTree = "<group>";
+		};
+		82CEDD03239E8FFB00915D97 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				82CEDCF3239E8FE800915D97 /* MainViewController.swift */,
+				82D000CB239FDB9400EECA64 /* ListeningViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		82CEDD04239E900800915D97 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				82CEDCFA239E8FED00915D97 /* LaunchScreen.storyboard */,
+				82CEDCF5239E8FE800915D97 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		82CEDD05239E901900915D97 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				82CEDCF1239E8FE800915D97 /* SceneDelegate.swift */,
+				82CEDCEF239E8FE800915D97 /* AppDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +165,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82CEDCF4239E8FE800915D97 /* ViewController.swift in Sources */,
+				82D000CC239FDB9400EECA64 /* ListeningViewController.swift in Sources */,
+				82CEDCF4239E8FE800915D97 /* MainViewController.swift in Sources */,
 				82CEDCF0239E8FE800915D97 /* AppDelegate.swift in Sources */,
 				82CEDCF2239E8FE800915D97 /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +244,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XSQ8BQ5W8Z;
 				INFOPLIST_FILE = TextRecognitionAndTextSpeech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +334,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XSQ8BQ5W8Z;
 				INFOPLIST_FILE = TextRecognitionAndTextSpeech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
