@@ -16,7 +16,7 @@ You will need to import “Vision” framework in the target viewController firs
 
 CodeTree  {
 ```
-func performOCR(on image: UIImage?, recognitionLevel: VNRequestTextRecognitionLevel)  {
+(- text in red (func)) performOCR(on image: UIImage?, recognitionLevel: VNRequestTextRecognitionLevel)  {
         // We set the image in cgImage format
         guard let image = image?.cgImage else { return }
         // And we define the Vision ImageRequestHandler
