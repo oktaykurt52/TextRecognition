@@ -53,8 +53,6 @@ func performOCR(on image: UIImage?, recognitionLevel: VNRequestTextRecognitionLe
 ```
 }
 
-Explanation of code
-—————————————————————————————————————————————
 # Author: 
 Oktay Kurt / GitHub Account.
 
