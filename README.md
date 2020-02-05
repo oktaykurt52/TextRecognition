@@ -10,7 +10,7 @@ Hi everyone! I would like to share a feature that app can recognize texts from i
 
 # Requirements: 
 iOS 11.0+ , Xcode 8+
-—————————————————————————————————————————————
+
 # Usage: 
 You will need to import “Vision” framework in the target viewController first. Then you will be ready to implement the VNImageRequestHandler for text recognition from an image input.
 
