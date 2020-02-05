@@ -54,7 +54,7 @@ func performOCR(on image: UIImage?, recognitionLevel: VNRequestTextRecognitionLe
 }
 
 # Author: 
-Oktay Kurt / kurt21380@gmail.com
+Oktay Kurt, kurt21380@gmail.com
 
 # License: 
 Built-in feature, No license
