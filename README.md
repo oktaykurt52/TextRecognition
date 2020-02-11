@@ -5,13 +5,13 @@ Text recognition with Apple Vision framework
 
 Hi everyone! I would like to share a feature that app can recognize texts from image with using Apple’s Vision framework. Let’s get start.
 
- # Example: 
+ # Example
  To run the project, you will only need the download the clone project. It’s ready to run.
 
-# Requirements: 
+# Requirements
 iOS 11.0+ , Xcode 8+
 
-# Usage: 
+# Usage
 You will need to import “Vision” framework in the target viewController first. Then you will be ready to implement the VNImageRequestHandler for text recognition from an image input.
 
 CodeTree  {
@@ -53,8 +53,8 @@ func performOCR(on image: UIImage?, recognitionLevel: VNRequestTextRecognitionLe
 ```
 }
 
-# Author: 
+# Author
 Oktay Kurt, kurt21380@gmail.com
 
-# License: 
+# License
 Built-in feature, No license
